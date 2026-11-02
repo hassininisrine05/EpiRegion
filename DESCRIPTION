@@ -2,7 +2,7 @@ Package: epiregion
 Type: Package
 Title: Regional DNA Methylation Analysis for Long-Read Sequencing Data
 Version: 0.1.0
-Authors@R: person("Nisrine", "hassini", email = "hassininisrine05@gmail.com"))
+Authors@R: person("Nisrine", "Hassini", email = "hassininisrine05@gmail.com", role = c("aut", "cre"))
 Description: Provides exploratory methods for regional DNA methylation
     analysis using long-read sequencing data. Includes methylation count
     simulation, regional aggregation, differential methylation testing,
