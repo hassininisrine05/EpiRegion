@@ -1,0 +1,18 @@
+Package: epiregion
+Type: Package
+Title: Regional DNA Methylation Analysis for Long-Read Sequencing Data
+Version: 0.1.0
+Authors@R: person("Nisrine", "hassini", email = "hassininisrine05@gmail.com"))
+Description: Provides exploratory methods for regional DNA methylation
+    analysis using long-read sequencing data. Includes methylation count
+    simulation, regional aggregation, differential methylation testing,
+    exploratory classification, and simulation-based benchmarking of
+    site-level and region-level approaches. The current implementation is
+    a research prototype evaluated using simulated data and has not been
+    validated for clinical use.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: stats, glmnet, pROC
+Suggests: testthat (>= 3.0.0), ggplot2
+Config/testthat/edition: 3
