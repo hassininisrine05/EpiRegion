@@ -1,3 +1,5 @@
+utils::globalVariables(c("coverage", "value", "method"))
+
 #' Benchmark CpG-level vs region-level strategies
 #'
 #' For each coverage x effect-size setting, simulates `n_rep` datasets and

@@ -16,3 +16,4 @@ Depends: R (>= 4.0.0)
 Imports: stats, glmnet, pROC
 Suggests: testthat (>= 3.0.0), ggplot2
 Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
