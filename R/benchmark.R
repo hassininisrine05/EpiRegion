@@ -57,6 +57,7 @@ run_benchmark <- function(coverages = c(10, 20, 30), deltas = c(0.05, 0.10, 0.15
 #' @param metric One of "tpr", "fdr", "auc".
 #' @export
 plot_benchmark <- function(res, metric = c("tpr", "fdr", "auc")) {
+  utils::globalVariables(c("coverage", "value", "method"))
   metric <- match.arg(metric)
   if (!requireNamespace("ggplot2", quietly = TRUE))
     stop("Package 'ggplot2' is required for plotting.")
