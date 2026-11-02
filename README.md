@@ -2,14 +2,12 @@
 
 [![R-CMD-check](https://github.com/hassininisrine05/EpiRegion/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hassininisrine05/EpiRegion/actions)
 
-*Region-level statistical methods for episignature detection from long-read (PacBio HiFi) methylation data — a simulation-based benchmark.*
+*Region-level statistical methods for episignature detection from long-read methylation data — a simulation-based benchmark.*
 
-> Projet personnel réalisé en préparation de la candidature à la thèse
-> « Épisignatures sur données de séquençage long read pour le diagnostic des troubles du neurodéveloppement » (UMR1245 CBG, Université de Rouen Normandie). Il reprend, sur données *simulées*, la question statistique centrale de l'offre : détecter des différences de méthylation très fines (5–15 %) à profondeur modeste (~30x).
 
 ## Question
 
-Les épisignatures reposent sur des différences de mét…
+Les épisignatures reposent sur des différences de méthylation …
 [03:09, 02/11/2026] Nisrine Hassini: # EpiRegion
 
 *An exploratory R toolkit for regional DNA methylation analysis using long-read sequencing data.*
@@ -20,7 +18,7 @@ EpiRegion is an open-source bioinformatics project exploring statistical methods
 
 The project investigates whether aggregating methylated-read counts across neighboring CpG sites can improve the detection of small methylation changes compared with single-CpG analysis, particularly under moderate sequencing coverage.
 
-The broader objective is to explore computational strategies relevant to DNA methylation profiling and episignature research using long-read sequencing technologies, including PacBio HiFi.
+The broader objective is to explore computational strategies relevant to DNA methylation profiling and episignature research using long-read sequencing technologies
 
 *Project status:* Research prototype based on simulated data. Performance has not yet been validated on real sequencing datasets or clinical samples.
 
