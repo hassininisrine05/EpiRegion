@@ -1,5 +1,5 @@
 # Reproduce the benchmark figures: Rscript scripts/run_benchmark.R
-library(hifiepi); library(ggplot2)
+library(epiregion); library(ggplot2)
 res <- run_benchmark(coverages = c(10, 20, 30), deltas = c(0.05, 0.10, 0.15),
                      n_rep = 10, seed = 2026)
 dir.create("docs", showWarnings = FALSE)

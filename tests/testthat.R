@@ -1,3 +1,3 @@
 library(testthat)
-library(hifiepi)
-test_check("hifiepi")
+library(epiregion)
+test_check("epiregion")

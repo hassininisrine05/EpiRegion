@@ -1,6 +1,6 @@
-[03:06, 02/11/2026] Nisrine Hassini: # hifiepi
+[03:06, 02/11/2026] Nisrine Hassini: # EpiRegion
 
-[![R-CMD-check](https://github.com/VOTRE-PSEUDO/hifiepi/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/VOTRE-PSEUDO/hifiepi/actions)
+[![R-CMD-check](https://github.com/hassininisrine05/EpiRegion/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hassininisrine05/EpiRegion/actions)
 
 *Region-level statistical methods for episignature detection from long-read (PacBio HiFi) methylation data — a simulation-based benchmark.*
 
